@@ -17,10 +17,6 @@ public class Temp_GameObject : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             hp -= 1;
-        }
-        if(hp == 0)
-        {
-            Debug.Log("YOU DEAD");
-        }
+        }    
     }
 }
