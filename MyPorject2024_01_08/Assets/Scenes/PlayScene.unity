@@ -149,6 +149,7 @@ MonoBehaviour:
   pivot: {fileID: 79495314}
   viewCamera: {fileID: 1110917676}
   velocity: {x: 0, y: 0, z: 0}
+  body: {fileID: 156092108}
 --- !u!114 &156092107
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -163,22 +164,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firePoint: {fileID: 831512801}
   Bullet: {fileID: 2432928495464544256, guid: bc599d71e08a3b1448882da8aa72a35f, type: 3}
---- !u!114 &156092108
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 156092104}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b51bb702597d27b43850415c55ce86cf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hp: 30
-  pos: {x: 0, y: 0, z: 0}
-  moveSpeed: 1
---- !u!54 &156092109
+--- !u!54 &156092108
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -194,7 +180,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &156092110
+--- !u!65 &156092109
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -205,8 +191,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.75, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.8471118, y: 0.9933359, z: 1}
+  m_Center: {x: 0.42355603, y: 0.48623148, z: 0}
 --- !u!4 &831512801 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1730979669580593971, guid: e08fed23a712b7d4ab6122fcbb248b1e, type: 3}
@@ -521,11 +507,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8515183367633869632, guid: e08fed23a712b7d4ab6122fcbb248b1e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.166
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8515183367633869632, guid: e08fed23a712b7d4ab6122fcbb248b1e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.594
       objectReference: {fileID: 0}
     - target: {fileID: 8515183367633869632, guid: e08fed23a712b7d4ab6122fcbb248b1e, type: 3}
       propertyPath: m_LocalPosition.z
